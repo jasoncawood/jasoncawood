@@ -32,8 +32,6 @@
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
         <img src="../img/common/plaid_bg.png" id="bg" alt="">
-        <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container">
@@ -50,7 +48,7 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="https://plus.google.com/104724755265365894249"><img src="../img/social/google_plus_16.png" /> Google +</a></li>
                                     <li><a href="https://www.linkedin.com/in/jasoncawood"><img src="../img/social/linkedin_16.png" /> LinkedIn</a></li>
-                                    <li><a href="https://twitter.com/JasonLeeCawood"><img src="../img/social/twitter_16.png" /> Twitter</a></li>
+                                    <li><a href="https://twitter.com/JasonCawood"><img src="../img/social/twitter_16.png" /> Twitter</a></li>
                                     <li><a href="https://www.facebook.com/jason.cawood"><img src="../img/social/facebook_16.png" /> Facebook</a></li>
                                     <li><a href="http://www.last.fm/user/pertyboy2"><img src="../img/social/lastfm_16.png" /> LastFm Listens</a></li>
                                     <li><a href="https://venmo.com/i/jasoncawood"><img src="../img/social/venmo_16.png" /> Venmo</a></li>
@@ -84,7 +82,6 @@
 
         <div class="container">
 
-            <!-- Main hero unit for a primary marketing message or call to action -->
 <!--
             <div class="hero-unit">
                 <h1>Welcome!</h1>
@@ -92,7 +89,6 @@
                 <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
             </div>
 -->
-            <!-- Example row of columns -->
             <div class="row">
                 <div class="span8 smoke-back darker white-font">
                     <div class="media smoke-image pull-left">
@@ -111,12 +107,51 @@
                 </div>
 -->
                 <div class="span3 smoke-back white-font">
-                    <p><h3>Schedule</h3></p>
-                    <div id="whatImDoing"></div>
 
                     <div class="media">
                         <a class="pull-left" href="http://www.fsf.org/register_form?referrer=5567"><img class="media-object" src="http://static.fsf.org/nosvn/associate/fsf-5567.png" alt="[FSF Associate Member]" /></a>
                     </div>
+
+                    <div class="media">
+                        <p><i><small>*As this is my personal website, The opinions expressed here are my own and not those of my employer.*</small></i></p>
+                    </div>
+
+<!--
+                    <p><h3>Recent Runs</h3></p>
+                    <div id="whereImRunning"></div>
+ -->
+
+
+                </div>
+            </div>
+
+            <hr>
+
+            <footer>
+
+                <div class="span3 smoke-back white-font">
+                    <p><h3>What I'm Listening To</h3></p>
+                    <div id="lastfm">
+                    <dl>
+                        <dt class="lfm_art">
+                            <a href="#"><img src="img/lastfm/lfm_overlay.png" class="lfm_overlay" /></a>
+                        </dt>
+                        <dd class="lfm_song"></dd>
+                        <dd class="lfm_artist"></dd>
+                        <dd class="lfm_album"></dd>
+                    </dl>
+                    </div>
+                    <a class="pull-right" href="http://www.last.fm/user/pertyboy2"><img src="//cdn.last.fm/flatness/badges/lastfm_grey_small.gif" alt="last.fm" /></a>
+                </div>
+
+                <div class="span3 smoke-back white-font">
+                    <p><h3>Where I am</h3></p>
+                    <div id="whereAmI" class="media"></div>
+                </div>
+
+                <div class="span3 smoke-back white-font">
+                    <p><h3>What I'm Doing</h3></p>
+                    <div id="whatImDoing"></div>
 
                     <div class="media" id="user-login">
                         <div class="pull-left" id="github-avatar"></div>
@@ -130,45 +165,10 @@
                         </div>
                     </div>
 
-                    <div class="media">
-                        <p><i><small>*As this is my personal website, The opinions expressed here are my own and not those of my employer.*</small></i></p>
-                    </div>
+                </div>
 
 <!--
-                    <p><h3>Recent Runs</h3></p>
-                    <div id="whereImRunning"></div>
 
-                    <p><h3>Listening</h3></p>
-                    <div id="lastfm">
-	                <dl>
-    		            <dt class="lfm_art">
-                            <a href="#"><img src="img/lastfm/lfm_overlay.png" class="lfm_overlay" /></a>
-                        </dt>
-                        <dd class="lfm_song"></dd>
-                        <dd class="lfm_artist"></dd>
-                        <dd class="lfm_album"></dd>
-                    </dl>
-                    </div>
-                    <a class="pull-right" href="http://www.last.fm/user/pertyboy2"><img src="//cdn.last.fm/flatness/badges/lastfm_grey_small.gif" alt="last.fm" /></a>
- -->
-
-                </div>
-            </div>
-
-            <hr>
-
-            <footer>
-
-                <div class="span3 white-font">
-                        &nbsp;
-                </div>
-                <div class="span3 white-font">
-                        &nbsp;
-                </div>
-<!--
-                <div class="span3 white-font">
-                        <div id="whereAmI" class="media"></div>
-                </div>
                 <div class="span4 white-font">
                     <p><h3>Seeing</h3></p>
                     <div class="instagram"></div>
@@ -180,13 +180,13 @@
                 <div class="span3 white-font">
                     <p><h3>Tweeting</h3></p>
                     <div class="tweet">
-	            </div>
+    	            </div>
 
-                    <p class="pull-right"><a href="https://twitter.com/JasonLeeCawood"><img src="../img/social/twitter_16.png" /> follow me on Twitter</a></p>
+                    <p class="pull-right"><a href="https://twitter.com/JasonCawood"><img src="../img/social/twitter_16.png" /> follow me on Twitter</a></p>
                 </div>
--->
+ -->
             </footer>
-        </div> <!-- /container -->
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
