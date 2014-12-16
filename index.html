@@ -231,11 +231,11 @@
                     $('#github-avatar').append('<a href="' + json.user.html_url + '" target="_parent"><img alt="' + json.user.login + '" class="avatar" src="' + json.user.avatar_url + '"></a>');
                     $('#github-username').append('<a href="' + json.user.html_url + '" target="_parent" title="' + json.user.name + '"><b>' + json.user.login + '</b></a>');
                     if (json.last_project) {
-                        rec_activ = 'Worked on' +
+                        rec_activ = 'Worked on the ' +
                             '<a href="' + json.last_project_url + '" ' +
                             'target="_parent" title="' + json.last_project + '">' +
                             json.last_project + '</a> ' +
-                            'recently.';
+                            ' project recently.';
                     } else {
                         rec_activ = '<span title="Based on the commits in the last ' +
                             json.days + ' days">No recent repo activity.</span>';
